@@ -1,0 +1,34 @@
+img.izquierda {
+    float: left;
+}
+img.derecha {
+    float: right;
+}
+p.centrado {
+    text-align: center;
+  }
+  
+  p {
+    cursor: url("img/exclamacion.ico"), wait;
+  }
+  img {
+    cursor: url("img/exclamacion.ico"), wait;
+  }
+  p.decoracion {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+  }
+  p.dividir {
+    column-gap: 15em;
+    columns: 3;
+    text-align: justify;
+  }
+  p.punteado {
+    column-rule-color: red;
+    column-rule-width: 2px;
+    column-rule-style: dashed;
+    columns: 4;
+    color: blue;
+    text-align: justify;
+  }
